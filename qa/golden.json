@@ -1,0 +1,206 @@
+[
+  {
+    "q": "What follows hopper in figure 1?",
+    "a": "feeder",
+    "ids": [
+      "f0-a"
+    ]
+  },
+  {
+    "q": "What feeds sorter in figure 1?",
+    "a": "feeder",
+    "ids": [
+      "f0-b"
+    ]
+  },
+  {
+    "q": "Path from hopper to sorter in figure 1",
+    "a": "hopper → feeder → sorter",
+    "ids": [
+      "f0-a",
+      "f0-b"
+    ]
+  },
+  {
+    "q": "What follows feeder in figure 1?",
+    "a": "sorter",
+    "ids": [
+      "f0-b"
+    ]
+  },
+  {
+    "q": "Path from sorter to hopper in figure 1",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "What follows probe in figure 2?",
+    "a": "bridge",
+    "ids": [
+      "f1-a"
+    ]
+  },
+  {
+    "q": "What feeds display in figure 2?",
+    "a": "bridge",
+    "ids": [
+      "f1-b"
+    ]
+  },
+  {
+    "q": "Path from probe to display in figure 2",
+    "a": "probe → bridge → display",
+    "ids": [
+      "f1-a",
+      "f1-b"
+    ]
+  },
+  {
+    "q": "What follows bridge in figure 2?",
+    "a": "display",
+    "ids": [
+      "f1-b"
+    ]
+  },
+  {
+    "q": "Path from display to probe in figure 2",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "What follows scanner in figure 3?",
+    "a": "decoder",
+    "ids": [
+      "f2-a"
+    ]
+  },
+  {
+    "q": "What feeds buffer in figure 3?",
+    "a": "decoder",
+    "ids": [
+      "f2-b"
+    ]
+  },
+  {
+    "q": "Path from scanner to buffer in figure 3",
+    "a": "scanner → decoder → buffer",
+    "ids": [
+      "f2-a",
+      "f2-b"
+    ]
+  },
+  {
+    "q": "What follows decoder in figure 3?",
+    "a": "buffer",
+    "ids": [
+      "f2-b"
+    ]
+  },
+  {
+    "q": "Path from buffer to scanner in figure 3",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "What follows tank in figure 4?",
+    "a": "pump",
+    "ids": [
+      "f3-a"
+    ]
+  },
+  {
+    "q": "What feeds filter in figure 4?",
+    "a": "pump",
+    "ids": [
+      "f3-b"
+    ]
+  },
+  {
+    "q": "Path from tank to filter in figure 4",
+    "a": "tank → pump → filter",
+    "ids": [
+      "f3-a",
+      "f3-b"
+    ]
+  },
+  {
+    "q": "What follows pump in figure 4?",
+    "a": "filter",
+    "ids": [
+      "f3-b"
+    ]
+  },
+  {
+    "q": "Path from filter to tank in figure 4",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "What follows lens in figure 5?",
+    "a": "sensor",
+    "ids": [
+      "f4-a"
+    ]
+  },
+  {
+    "q": "What feeds recorder in figure 5?",
+    "a": "sensor",
+    "ids": [
+      "f4-b"
+    ]
+  },
+  {
+    "q": "Path from lens to recorder in figure 5",
+    "a": "lens → sensor → recorder",
+    "ids": [
+      "f4-a",
+      "f4-b"
+    ]
+  },
+  {
+    "q": "What follows sensor in figure 5?",
+    "a": "recorder",
+    "ids": [
+      "f4-b"
+    ]
+  },
+  {
+    "q": "Path from recorder to lens in figure 5",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "What follows inlet in figure 6?",
+    "a": "meter",
+    "ids": [
+      "f5-a"
+    ]
+  },
+  {
+    "q": "What feeds valve in figure 6?",
+    "a": "meter",
+    "ids": [
+      "f5-b"
+    ]
+  },
+  {
+    "q": "Path from inlet to valve in figure 6",
+    "a": "inlet → meter → valve",
+    "ids": [
+      "f5-a",
+      "f5-b"
+    ]
+  },
+  {
+    "q": "What follows meter in figure 6?",
+    "a": "valve",
+    "ids": [
+      "f5-b"
+    ]
+  },
+  {
+    "q": "Path from valve to inlet in figure 6",
+    "a": null,
+    "ids": []
+  }
+]

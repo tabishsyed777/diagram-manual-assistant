@@ -1,0 +1,31 @@
+{
+  "coverage_in_process_main_thread": {
+    "core.py": {
+      "hit": 44,
+      "executable": 84,
+      "fraction": 0.524
+    },
+    "common.py": {
+      "hit": 3,
+      "executable": 6,
+      "fraction": 0.5
+    },
+    "domain.py": {
+      "hit": 24,
+      "executable": 32,
+      "fraction": 0.75
+    },
+    "import_figure.py": {
+      "hit": 24,
+      "executable": 27,
+      "fraction": 0.889
+    }
+  },
+  "scale_records": 1212,
+  "scale_exact_answer_and_citations": 1.0,
+  "scale_p95_ms": 1.4059229999929812,
+  "peak_traced_bytes_during_validation_and_queries": 358405,
+  "scale_elapsed_seconds": 0.045607137999923,
+  "tests_run": 13,
+  "skips": 0
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "f0-a",
+    "source": "manual.svg#f0-a",
+    "figure": "figure 1",
+    "start": "hopper",
+    "end": "feeder"
+  },
+  {
+    "id": "f0-b",
+    "source": "manual.svg#f0-b",
+    "figure": "figure 1",
+    "start": "feeder",
+    "end": "sorter"
+  },
+  {
+    "id": "f1-a",
+    "source": "manual.svg#f1-a",
+    "figure": "figure 2",
+    "start": "probe",
+    "end": "bridge"
+  },
+  {
+    "id": "f1-b",
+    "source": "manual.svg#f1-b",
+    "figure": "figure 2",
+    "start": "bridge",
+    "end": "display"
+  },
+  {
+    "id": "f2-a",
+    "source": "manual.svg#f2-a",
+    "figure": "figure 3",
+    "start": "scanner",
+    "end": "decoder"
+  },
+  {
+    "id": "f2-b",
+    "source": "manual.svg#f2-b",
+    "figure": "figure 3",
+    "start": "decoder",
+    "end": "buffer"
+  },
+  {
+    "id": "f3-a",
+    "source": "manual.svg#f3-a",
+    "figure": "figure 4",
+    "start": "tank",
+    "end": "pump"
+  },
+  {
+    "id": "f3-b",
+    "source": "manual.svg#f3-b",
+    "figure": "figure 4",
+    "start": "pump",
+    "end": "filter"
+  },
+  {
+    "id": "f4-a",
+    "source": "manual.svg#f4-a",
+    "figure": "figure 5",
+    "start": "lens",
+    "end": "sensor"
+  },
+  {
+    "id": "f4-b",
+    "source": "manual.svg#f4-b",
+    "figure": "figure 5",
+    "start": "sensor",
+    "end": "recorder"
+  },
+  {
+    "id": "f5-a",
+    "source": "manual.svg#f5-a",
+    "figure": "figure 6",
+    "start": "inlet",
+    "end": "meter"
+  },
+  {
+    "id": "f5-b",
+    "source": "manual.svg#f5-b",
+    "figure": "figure 6",
+    "start": "meter",
+    "end": "valve"
+  }
+]

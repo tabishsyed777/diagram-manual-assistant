@@ -1,0 +1,368 @@
+{
+  "automated_gates_pass": true,
+  "metrics": {
+    "cases": 30,
+    "answer_accuracy": 1,
+    "citation_exact": 1,
+    "recall_at_5": 1.0,
+    "grounded_answer_exact": 1,
+    "refusal": 1,
+    "concurrent_accuracy": 1,
+    "p50_ms": 2.729823999970904,
+    "p95_ms": 8.62293900001987,
+    "records": 12,
+    "source_bytes": 1544,
+    "concurrent_readers": 50,
+    "golden_sha256": "e3a176a9d6071d1eb7f91a84f93469dfd55f0c42d7eafff53368494d14aa2eaf"
+  },
+  "observations": [
+    {
+      "question": "What follows hopper in figure 1?",
+      "status": "answered",
+      "answer": "feeder",
+      "method": "adjacency",
+      "citations": [
+        {
+          "id": "f0-a",
+          "source": "manual.svg#f0-a"
+        }
+      ]
+    },
+    {
+      "question": "What feeds sorter in figure 1?",
+      "status": "answered",
+      "answer": "feeder",
+      "method": "adjacency",
+      "citations": [
+        {
+          "id": "f0-b",
+          "source": "manual.svg#f0-b"
+        }
+      ]
+    },
+    {
+      "question": "Path from hopper to sorter in figure 1",
+      "status": "answered",
+      "answer": "hopper → feeder → sorter",
+      "method": "shortest directed path",
+      "citations": [
+        {
+          "id": "f0-a",
+          "source": "manual.svg#f0-a"
+        },
+        {
+          "id": "f0-b",
+          "source": "manual.svg#f0-b"
+        }
+      ]
+    },
+    {
+      "question": "What follows feeder in figure 1?",
+      "status": "answered",
+      "answer": "sorter",
+      "method": "adjacency",
+      "citations": [
+        {
+          "id": "f0-b",
+          "source": "manual.svg#f0-b"
+        }
+      ]
+    },
+    {
+      "question": "Path from sorter to hopper in figure 1",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "What follows probe in figure 2?",
+      "status": "answered",
+      "answer": "bridge",
+      "method": "adjacency",
+      "citations": [
+        {
+          "id": "f1-a",
+          "source": "manual.svg#f1-a"
+        }
+      ]
+    },
+    {
+      "question": "What feeds display in figure 2?",
+      "status": "answered",
+      "answer": "bridge",
+      "method": "adjacency",
+      "citations": [
+        {
+          "id": "f1-b",
+          "source": "manual.svg#f1-b"
+        }
+      ]
+    },
+    {
+      "question": "Path from probe to display in figure 2",
+      "status": "answered",
+      "answer": "probe → bridge → display",
+      "method": "shortest directed path",
+      "citations": [
+        {
+          "id": "f1-a",
+          "source": "manual.svg#f1-a"
+        },
+        {
+          "id": "f1-b",
+          "source": "manual.svg#f1-b"
+        }
+      ]
+    },
+    {
+      "question": "What follows bridge in figure 2?",
+      "status": "answered",
+      "answer": "display",
+      "method": "adjacency",
+      "citations": [
+        {
+          "id": "f1-b",
+          "source": "manual.svg#f1-b"
+        }
+      ]
+    },
+    {
+      "question": "Path from display to probe in figure 2",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "What follows scanner in figure 3?",
+      "status": "answered",
+      "answer": "decoder",
+      "method": "adjacency",
+      "citations": [
+        {
+          "id": "f2-a",
+          "source": "manual.svg#f2-a"
+        }
+      ]
+    },
+    {
+      "question": "What feeds buffer in figure 3?",
+      "status": "answered",
+      "answer": "decoder",
+      "method": "adjacency",
+      "citations": [
+        {
+          "id": "f2-b",
+          "source": "manual.svg#f2-b"
+        }
+      ]
+    },
+    {
+      "question": "Path from scanner to buffer in figure 3",
+      "status": "answered",
+      "answer": "scanner → decoder → buffer",
+      "method": "shortest directed path",
+      "citations": [
+        {
+          "id": "f2-a",
+          "source": "manual.svg#f2-a"
+        },
+        {
+          "id": "f2-b",
+          "source": "manual.svg#f2-b"
+        }
+      ]
+    },
+    {
+      "question": "What follows decoder in figure 3?",
+      "status": "answered",
+      "answer": "buffer",
+      "method": "adjacency",
+      "citations": [
+        {
+          "id": "f2-b",
+          "source": "manual.svg#f2-b"
+        }
+      ]
+    },
+    {
+      "question": "Path from buffer to scanner in figure 3",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "What follows tank in figure 4?",
+      "status": "answered",
+      "answer": "pump",
+      "method": "adjacency",
+      "citations": [
+        {
+          "id": "f3-a",
+          "source": "manual.svg#f3-a"
+        }
+      ]
+    },
+    {
+      "question": "What feeds filter in figure 4?",
+      "status": "answered",
+      "answer": "pump",
+      "method": "adjacency",
+      "citations": [
+        {
+          "id": "f3-b",
+          "source": "manual.svg#f3-b"
+        }
+      ]
+    },
+    {
+      "question": "Path from tank to filter in figure 4",
+      "status": "answered",
+      "answer": "tank → pump → filter",
+      "method": "shortest directed path",
+      "citations": [
+        {
+          "id": "f3-a",
+          "source": "manual.svg#f3-a"
+        },
+        {
+          "id": "f3-b",
+          "source": "manual.svg#f3-b"
+        }
+      ]
+    },
+    {
+      "question": "What follows pump in figure 4?",
+      "status": "answered",
+      "answer": "filter",
+      "method": "adjacency",
+      "citations": [
+        {
+          "id": "f3-b",
+          "source": "manual.svg#f3-b"
+        }
+      ]
+    },
+    {
+      "question": "Path from filter to tank in figure 4",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "What follows lens in figure 5?",
+      "status": "answered",
+      "answer": "sensor",
+      "method": "adjacency",
+      "citations": [
+        {
+          "id": "f4-a",
+          "source": "manual.svg#f4-a"
+        }
+      ]
+    },
+    {
+      "question": "What feeds recorder in figure 5?",
+      "status": "answered",
+      "answer": "sensor",
+      "method": "adjacency",
+      "citations": [
+        {
+          "id": "f4-b",
+          "source": "manual.svg#f4-b"
+        }
+      ]
+    },
+    {
+      "question": "Path from lens to recorder in figure 5",
+      "status": "answered",
+      "answer": "lens → sensor → recorder",
+      "method": "shortest directed path",
+      "citations": [
+        {
+          "id": "f4-a",
+          "source": "manual.svg#f4-a"
+        },
+        {
+          "id": "f4-b",
+          "source": "manual.svg#f4-b"
+        }
+      ]
+    },
+    {
+      "question": "What follows sensor in figure 5?",
+      "status": "answered",
+      "answer": "recorder",
+      "method": "adjacency",
+      "citations": [
+        {
+          "id": "f4-b",
+          "source": "manual.svg#f4-b"
+        }
+      ]
+    },
+    {
+      "question": "Path from recorder to lens in figure 5",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "What follows inlet in figure 6?",
+      "status": "answered",
+      "answer": "meter",
+      "method": "adjacency",
+      "citations": [
+        {
+          "id": "f5-a",
+          "source": "manual.svg#f5-a"
+        }
+      ]
+    },
+    {
+      "question": "What feeds valve in figure 6?",
+      "status": "answered",
+      "answer": "meter",
+      "method": "adjacency",
+      "citations": [
+        {
+          "id": "f5-b",
+          "source": "manual.svg#f5-b"
+        }
+      ]
+    },
+    {
+      "question": "Path from inlet to valve in figure 6",
+      "status": "answered",
+      "answer": "inlet → meter → valve",
+      "method": "shortest directed path",
+      "citations": [
+        {
+          "id": "f5-a",
+          "source": "manual.svg#f5-a"
+        },
+        {
+          "id": "f5-b",
+          "source": "manual.svg#f5-b"
+        }
+      ]
+    },
+    {
+      "question": "What follows meter in figure 6?",
+      "status": "answered",
+      "answer": "valve",
+      "method": "adjacency",
+      "citations": [
+        {
+          "id": "f5-b",
+          "source": "manual.svg#f5-b"
+        }
+      ]
+    },
+    {
+      "question": "Path from valve to inlet in figure 6",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    }
+  ]
+}

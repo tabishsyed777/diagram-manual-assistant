@@ -1,0 +1,18 @@
+[
+  [
+    "what feeds feeder in figure 1",
+    "hopper"
+  ],
+  [
+    "path from hopper to feeder in figure 1",
+    "hopper → feeder"
+  ],
+  [
+    "what feeds hopper in figure 1",
+    null
+  ],
+  [
+    "what follows sensor in figure 5",
+    "recorder"
+  ]
+]
